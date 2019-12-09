@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint (ask helloworld to say it)
+    hint (ask helloworld to say world)
+    hint (ask helloworld to say something)
+  }
+}
