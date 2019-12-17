@@ -1,0 +1,15 @@
+dialog (Result) {
+  match: world (txt) {
+    from-output: doHelloWorld ()
+  }
+
+  if (txt == 'hello, world') {
+    template("HELLO, WORLD") {
+      speech ("hello, world")
+    }
+  } else-if (txt == 'foo, bar') {
+    template ("FOO, BAR") {
+      speech ("foo, bar")
+    }
+  }
+}

@@ -102,3 +102,25 @@ endpoints {
 
 11. run Bixby Emulator  
   put "say it" to input terminal, and "Run NL"  
+
+
+## Use Voice output
+
+12. add followings to resources/en-US/dialogs/helloVoice.dialog.bxb
+```js
+dialog (Result) {
+  match: world (txt) {
+    from-output: doHelloWorld ()
+  }
+
+  if (txt == 'hello, world') {
+    template("HELLO, WORLD") {
+      speech ("hello, world")
+    }
+  } else-if (txt == 'foo, bar') {
+    template ("FOO, BAR") {
+      speech ("foo, bar")
+    }
+  }
+}
+```
