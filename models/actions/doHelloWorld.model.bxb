@@ -1,4 +1,11 @@
 action (doHelloWorld) {
+  collect {
+    input (what) {
+      type (hello)
+      min (Required)
+      max (One)
+    }
+  }
 
   output (world)
   type (Calculation)

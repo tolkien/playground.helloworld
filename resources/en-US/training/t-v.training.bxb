@@ -1,5 +1,5 @@
 train (t-vt51xjoubxxt4ttjq9wd82tb5) {
-  utterance ([g:world] say it)
-  plan (Y2BkkC7ISaxML8ovzUvRy0jNyckvzy/KSdEDkwwgwAgiAA==)
-  last-modified (1575914412355)
+  utterance ("[g:world] say (it)[v:hello]")
+  plan (Y2BmkC7ISaxML8ovzUvRy0jNyckvzy/KSdEDkwxK2CVT8j1AnHCwGhwGgJkMTAyMQMwAJBkZQIAJggE=)
+  last-modified (1577802070666)
 }
